@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rela="http://www.mcu.fake/siteinfo/gotg/relationships/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description rdf:about="http://relationships/Quill">
+        <rela:loverOf rdf:resource="http://relationships/Gamora"/>
+        <rela:friendOf rdf:resource="http://relationships/Drax"/>
+        <rela:brotherOf rdf:resource="http://relationships/Mantis"/>
+        <rela:friendOf rdf:resource="http://relationships/Nebula"/>
+        <rela:friendOf rdf:resource="http://relationships/Rocket"/>
+        <rela:friendOf rdf:resource="http://relationships/Groot"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://relationships/Gamora/">
+        <rela:loverOf rdf:resource="http://relationships/Quill"/>
+        <rela:friendOf rdf:resource="http://relationships/Drax"/>
+        <rela:friendOf rdf:resource="http://relationships/Mantis"/>
+        <rela:sisterOf rdf:resource="http://relationships/Nebula"/>
+        <rela:friendOf rdf:resource="http://relationships/Rocket"/>
+        <rela:friendOf rdf:resource="http://relationships/Groot"/>
+    </rdf:Description>
+        <rdf:Description rdf:about="http://relationships/Drax/">
+            <rela:friendOf rdf:resource="http://relationships/Quill"/>
+            <rela:friendOf rdf:resource="http://relationships/Gamora"/>
+            <rela:bestfriendOf rdf:resource="http://relationships/Mantis"/>
+            <rela:friendOf rdf:resource="http://relationships/Nebula"/>
+            <rela:friendOf rdf:resource="http://relationships/Rocket"/>
+            <rela:friendOf rdf:resource="http://relationships/Groot"/>
+        </rdf:Description>
+            <rdf:Description rdf:about="http://relationships/Mantis">
+                <rela:sisterOf rdf:resource="http://relationships/Quill"/>
+                <rela:friendOf rdf:resource="http://relationships/Gamora"/>
+                <rela:bestfriendOf rdf:resource="http://relationships/Drax"/>
+                <rela:friendOf rdf:resource="http://relationships/Nebula"/>
+                <rela:friendOf rdf:resource="http://relationships/Rocket"/>
+                <rela:friendOf rdf:resource="http://relationships/Groot"/>
+            </rdf:Description>
+                <rdf:Description rdf:about="http://relationships/Rocket/">
+                    <rela:friendOf rdf:resource="http://relationships/Quill"/>
+                    <rela:sisterOf rdf:resource="http://relationships/Gamora"/>
+                    <rela:friendOf rdf:resource="http://relationships/Drax"/>
+                    <rela:friendOf rdf:resource="http://relationships/Mantis"/>
+                    <rela:friendOf rdf:resource="http://relationships/Nebula"/>
+                    <rela:friendOf rdf:resource="http://relationships/Rocket"/>
+                    <rela:friendOf rdf:resource="http://relationships/Groot"/>
+                </rdf:Description>
+                    <rdf:Description rdf:about="http://relationships/Groot">
+                        <rela:friendOf rdf:resource="http://relationships/Quill"/>
+                        <rela:friendOf rdf:resource="http://relationships/Gamora"/>
+                        <rela:friendOf rdf:resource="http://relationships/Drax"/>
+                        <rela:friendOf rdf:resource="http://relationships/Mantis"/>
+                        <rela:friendOf rdf:resource="http://relationships/Nebula"/>
+                        <rela:bestfriendOf rdf:resource="http://relationships/Rocket"/>
+                    </rdf:Description>
+</rdf:RDF>
