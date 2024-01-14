@@ -1,1 +1,1 @@
-#Gotg Jena Reasoner API
+# Gotg Jena RDF API
