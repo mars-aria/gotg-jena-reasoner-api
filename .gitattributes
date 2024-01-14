@@ -1,0 +1,5 @@
+*.rdf linguist-detectable=true
+*.rdf linguist-language=xml
+
+*.java linguist-detectable=true
+*.java linguist-language=java
