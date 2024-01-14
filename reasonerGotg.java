@@ -13,7 +13,8 @@ public class reasonerGotg {
         // Load RDF data from file
         Model model = ModelFactory.createDefaultModel();
         FileManager.get().readModel(model, "src/assignment2/gotg2.rdf");
-
+        // input the correct file path on your local computer
+        
         // Setting up rules
         String rules = """
                 [r1:
